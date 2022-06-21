@@ -7,42 +7,445 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="stylesheet_kindergarte.css">
-
-    <title>Kindergarten Tution</title>
+    <link rel="stylesheet" href="styles.css"
+    <title>Kindergarten School</title>
   </head>
   <body>
-    <!-- <h1>Hello, world!</h1>
-    <p class="h1">Laren</p> -->
-<!-- header start -->
-<div style="position: relative;display: block;">
+    <!-- <h1>Hello, world!</h1> -->
+<!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><h1 style="color: #17a2b8;">KidKinder</h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><b style="color: #17a2b8;">Home</b> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><b>About</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>Classes</b></a>
+            </li>
 
-    <button class="Kindergartenbutton"
-        style="font-size: 50px;color: #17a2b8;position:absolute; border: none; background: none;font-family: Verdana, Geneva, Tahoma, sans-serif;"><b>KidKinder</b></button>
-    <span class="navbutton">
-        <button
-            style="position: absolute;border: none;background: none;left: 300px;color: #17a2b8 ;"><b>Home</b></button>
-        <button style="position: absolute;border: none;background: none;left: 400px;"><b>About</b></button>
-        <button style="position: absolute;border: none;background: none;left: 500px;"><b>Classes</b></button>
-        <button style="position: absolute;border: none;background: none;left: 600px;"><b>Teachers</b></button>
-        <button style="position: absolute;border: none;background: none;left: 700px;"><b>Gallery</b></button>
-        <button style="position: absolute;border: none;background: none;left: 800px;"><b>Pages</b></button>
-        <button style="position: absolute;border: none;background: none;left: 900px;"><b>Contact</b></button>
-        <button
-            style="position: absolute;border: none;background: none;left: 1000px;background-color: #17a2b8;color: white;border-radius: 20px; font-size: 20px;"><b>JoinClass</b></button>
-    </span>
-</div>
-<!-- Hedaer end -->
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>Teachers</b></a>
+            </li>
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-6" style="background-color: turquoise;">hi</div>
-        <div class="col-md-6" style="border: turquoise;">hello</div>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>Gallery</b></a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <b>Pages</b>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>Contact</b></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button style="color: white; background-color: #17a2b8;width: 110px; border-radius: 20px;" class="btn  my-2 my-sm-0" type="submit">Join Class</button>
+          </form>
+        </div>
+      </nav>
+      <!-- navbar end -->
+     <!-- introduction div start -->
+      <div>
+          <div class="row" style="background-color: #17a2b8;">
+              <div class="col-sm-6" style="color: white;">
+                  <h2 style="margin-left: 30px;margin-top: 100px;">Kids Learning Center</h2>
+                  <h1 style="margin-left: 30px;font-size: 70px;">New Approach to Kids Education</h1>
+                  <p style="margin-left: 30px;">Sea ipsum kasd eirmod kasd magna,
+                 est sea et diam ipsum est amet sed sit. 
+                 Ipsum dolor no justo dolor et, lorem ut 
+                 dolor erat dolore sed ipsum at ipsum nonumy 
+                 amet. Clita lorem dolore sed stet et est justo dolore.</p>
+                 <button style="margin-left: 30px; background: none;border: none;background-color:#00394f;color: white; border-radius: 30px;padding: 20px;width: 200px;margin-top: 40px;">Learn more</button>
+              </div>
+              <div class="col-sm-6 text-Center text-lg-right ">
+                  <img class="img-fluid mt-5" src="./img/header.png">
+              </div>
+          </div>
+      </div>
+
+      <!-- introduction div end -->
+
+      <!-- Benefits div start -->
+    <div class="container-fluid pt-5">
+        <div class="container pb-3">
+            <div class="row">
+                <div class="col-sm-4 ">
+                    <div style="margin: 10px;background-color: rgba(128, 128, 128, 0.075);padding: 30px;">
+                        <h3>Play Ground</h3>
+                        <p>Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero lorem amet elitr vero...</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 ">
+                    <div style="margin: 10px;background-color: rgba(128, 128, 128, 0.075);padding: 30px;">
+                        <h3>Music and Dance</h3>
+                        <p>Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero lorem amet elitr vero...</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 ">
+                    <div style="margin: 10px;background-color: rgba(128, 128, 128, 0.075);padding: 30px;">
+                        <h3>Arts and Crafts</h3>
+                        <p>Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero lorem amet elitr vero...</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 ">
+                    <div style="margin: 10px;background-color: rgba(128, 128, 128, 0.075);padding: 30px;">
+                        <h3>Safe Transportation</h3>
+                        <p>Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero lorem amet elitr vero...</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 ">
+                    <div style="margin: 10px;background-color: rgba(128, 128, 128, 0.075);padding: 30px;">
+                        <h3>Healthy food</h3>
+                        <p>Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero lorem amet elitr vero...</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 ">
+                    <div style="margin: 10px;background-color: rgba(128, 128, 128, 0.075);padding: 30px;">
+                        <h3>Educational Tour</h3>
+                        <p>Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero lorem amet elitr vero...</p>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
     </div>
-</div>
 
+    <!-- benefit div end -->
+<!-- Learn about us start -->
+    <div class="container-fluid">
+        <div class="container pb-1">
+            <div class="row">
+                <div class="col-md-6">
+                    <div style="padding: 15px;">
+                        <img class="img-fluid rounded mb-5 mb-lg-0" src="./img/about-1.jpg" alt="">
 
+                    </div>
 
+                </div>
+
+                <div class="col-md-6">
+                    <div>
+                      <h3 style="color: #17a2b8">Learn about us -</h3> 
+                      <h1>Best School For Your Kids</h1>
+                      <p>Invidunt lorem justo sanctus clita. 
+                        Erat lorem labore ea, justo dolor lorem 
+                        ipsum ut sed eos, ipsum et dolor kasd sit 
+                        ea justo. Erat justo sed sed diam. Ea et erat 
+                        ut sed diam sea ipsum est dolor</p> 
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-5">
+                                <div>
+                                    <img class="img-fluid rounded" src="./img/about-2.jpg">
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div>
+                                    <li>Labore eos amet dolor amet diam</li>
+                                    <li>Etsea et sit dolor amet ipsum</li>
+                                    <li>Diam dolor diam elitripsum vero.</li>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <button style="background-color: #17a2b8; border-radius: 30px; width: 150px;margin: 30px;padding: 20px;border: none;color: white;">Learn more</button>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Learn about us end -->
+
+    <!-- Popular classes start-->
+
+    <div class="container-fluid mt-5">
+        <Div style="text-align: center;">
+            <h2 style="color: #17a2b8;">-Popular classes-</h2>
+            <h1 style="color:#00394f ;">Classes for your kids</h1>
+        </Div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4"" >
+                        <div style=" margin: 5px;padding: 5px;background-color: gainsboro;">
+                        <div style="margin: 5px;padding: 5px;">
+                            <img class="card-img-top mb-2" src="./img/class-1.jpg">
+                        </div>
+    
+                        <div style="text-align: center;">
+                            <h3>Drawing class</h3>
+                            <p>
+                                Justo ea diam stet diam ipsum no sit,
+                                ipsum vero et et diam ipsum duo et no et,
+                                ipsum ipsum erat duo amet clita duo
+                            </p>
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="col-md-4">
+                    <div style="margin: 5px;padding: 5px;background-color: gainsboro;">
+                        <div style="margin: 5px;padding: 5px;">
+                            <img class="card-img-top mb-2" src="./img/class-2.jpg">
+                        </div>
+    
+                        <div style="text-align: center;">
+                            <h3>Drawing class</h3>
+                            <p>
+                                Justo ea diam stet diam ipsum no sit,
+                                ipsum vero et et diam ipsum duo et no et,
+                                ipsum ipsum erat duo amet clita duo
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div style="margin: 5px;padding: 5px; background-color: gainsboro;">
+                        <div style="margin: 5px;padding: 5px;">
+                            <img class="card-img-top mb-2" src="./img/class-3.jpg">
+                        </div>
+    
+                        <div style="text-align: center;">
+                            <h3>Drawing class</h3>
+                            <p>
+                                Justo ea diam stet diam ipsum no sit,
+                                ipsum vero et et diam ipsum duo et no et,
+                                ipsum ipsum erat duo amet clita duo
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+    
+        </div>
+    
+    </div>
+
+    <!-- popular classes end -->
+
+    <!-- Book seat start -->
+
+    <div class="container-fluid mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h2 style="color: #17a2b8;">Book a seat-</h2>
+                    <h1 style="color:#00394f ;">Book A Seat For Your Kid</h1>
+                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, 
+                    justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea 
+                    justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
+                    <ul>
+                        <li>Labore eos amet dolor amet diam</li>
+                        <li>Etsea et sit dolor amet ipsum</li>
+                        <li>Diam dolor diam elitripsum vero.</li>
+                    </ul>
+                    <button style="color: white;background-color: #17a2b8;width: 150px;border: none; border-radius: 20px;margin-top: 10px;padding: 10px;">Book now</button>
+                </div>
+                <div class="col-md-5">
+                    <div class="container-fluid">
+                        <div style="background-color:#00394f ;">
+                                <h1 style="margin: 10px; padding: 30px;color: white;text-align: center;" >Book a seat</h1>   
+                        </div>
+                        <div style="background-color: #17a2b8;">
+                            <div style="background-color: #17a2b8;padding: 40px;">
+                                
+                                <input type="text" placeholder="Your Name" style="background-color: white;width: 90%;border-radius: 5px;border: none; margin: 5px;padding: 5px;">
+                                <input type="text" placeholder="Your Name" style="background-color: white;width: 90%;border-radius: 5px; border: none;margin: 5px;padding: 5px;">
+                                <input type="text" placeholder="Your Name" style="background-color: white;width: 90%;border-radius: 5px; border: none;margin: 5px;padding: 5px;">
+                                <button style="color: white;background-color: #00394f;border: none; width: 90%;border-radius: 20px;margin-top: 30px;padding: 10px;">Book now</button>
+                                
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- book seat end -->
+
+    <!-- teachers start -->
+
+    <div class="container-fluid mt-5" >
+        <div class="container">
+            <div style="text-align: center;">
+                <h2 style="color: #17a2b8;">-OUR TEACHERS-</h2>
+                <h1>Meet Our Teachers</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 text-center team mb-5">
+                    <img class="img-fluid w-100" style="border-radius: 100%;" src="./img/team-1.jpg"
+                    <h3>Julia Smith</h3>
+                    <h6><i>Music Teacher</i> </h6>
+                </div>
+
+                <div class="col-md-3 text-center team mb-5">
+                    <img class="img-fluid w-100" style="border-radius: 100%;" src="./img/team-2.jpg">
+                    <h3>Jhon Doe</h3>
+                    <h6><i>Language Teacher</i> </h6>  
+                </div>
+
+                <div class="col-md-3 text-center team mb-5">
+                    <img class="img-fluid w-100" style="border-radius: 100%;" src="./img/team-3.jpg">
+                    <h3>Mollie Ross</h3>
+                    <h6><i>Dance Teacher</i> </h6> 
+                </div>
+
+                <div class="col-md-3 text-center team mb-5">
+                    <img class="img-fluid w-100" style="border-radius: 100%;" src="./img/team-4.jpg">
+                    <h3>Donald John</h3>
+                    <h6><i>Art Teacher</i> </h6>  
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- teachers end -->
+
+    <!-- Blog start -->
+
+    <div class="container-fluid">
+        <div class="container">
+            <div style="text-align: center;">
+                <h3 style="color: #17a2b8;">-LATEST BLOG-</h3>
+                <h1 style="color: #00394f;">Latest Articles From Blog</h1>
+            </div>
+            
+                <div class="container-fluid">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 text-Center">
+                                <img class="card-img-top mb-2" src="./img/blog-1.jpg">
+                                <h5 style="text-align: center;">Diam amet eos at no eos</h5>
+                                <p style="text-align: center;">Sed kasd sea sed at elitr sed ipsum justo, 
+                                sit nonumy diam eirmod, duo et sed sit eirmod 
+                                kasd clita tempor dolor stet lorem. Tempor ipsum 
+                                justo amet stet...</p>
+                                <div style="text-align: center;">
+                                    <button style="border: none;background-color: #17a2b8;color: white;border-radius: 30px;width: 110px; text-align: center;margin: 10px;padding: 10px;">Read more</button>
+                                </div>
+                                
+                            </div>
+        
+                            <div class="col-md-4 text-Center">
+                                <img class="card-img-top mb-2" src="./img/blog-2.jpg">
+                                <h5 style="text-align: center;">Diam amet eos at no eos</h5>
+                                <p style="text-align: center;">Sed kasd sea sed at elitr sed ipsum justo, 
+                                sit nonumy diam eirmod, duo et sed sit eirmod 
+                                kasd clita tempor dolor stet lorem. Tempor ipsum 
+                                justo amet stet...</p>
+                                <div style="text-align: center;">
+                                    <button style="border: none;background-color: #17a2b8;color: white;border-radius: 30px;width: 110px; text-align: center;margin: 10px;padding: 10px;">Read more</button>
+                                </div>
+                            </div>
+        
+                            <div class="col-md-4 text-Center">
+                                <img class="card-img-top mb-2" src="./img/blog-3.jpg">
+                                <h5 style="text-align: center;">Diam amet eos at no eos</h5>
+                                <p style="text-align: center;">Sed kasd sea sed at elitr sed ipsum justo, 
+                                sit nonumy diam eirmod, duo et sed sit eirmod 
+                                kasd clita tempor dolor stet lorem. Tempor ipsum 
+                                justo amet stet...</p>
+                                <div style="text-align: center;">
+                                    <button style="border: none;background-color: #17a2b8;color: white;border-radius: 30px;width: 110px; text-align: center;margin: 10px;padding: 10px;">Read more</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            
+        </div>
+    </div>
+
+    <!-- Blog end -->
+
+    <!-- Footer start -->
+
+    <div class="container-fluid" style="background-color: #00394f;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mt-5" style="color: white;">
+                    <h1>KidKinder</h1>
+                    <p>Labore dolor amet ipsum ea, erat sit ipsum duo eos. 
+                    Volup amet ea dolor et magna dolor, elitr rebum duo est 
+                    sed diam elitr. Stet elitr stet diam duo eos rebum ipsum diam ipsum elitr.
+                    </p>
+                </div>
+
+                <div class="col-md-3 mt-5" style="color: white;">
+                    <h1 style="color:#17a2b8;">Get In Touch</h1>
+                    <p>
+                        <h5>Address</h5>
+                        <h6>123 Street, New York, USA</h6>
+                        <h5>Email</h5>
+                        <h6>info@example.com</h6>
+                        <h5>Phone</h5>
+                        <h6>+012 345 67890</h6>
+                    </p>
+                </div>
+
+                <div class="col-md-3 mt-5" style="color: white;">
+                    <h1 style="color:#17a2b8;">Quick Links</h1>
+                    
+                        <p><a style="color: white;" href="">Home</a></p>
+                        <p><a style="color: white;" href="">About Us</a></p>
+                        <p><a style="color: white;" href="">Our classes</a></p>
+                        <p><a style="color: white;" href="">Our Teachers</a></p>
+                        <p><a style="color: white;" href="">Our Blog</a></p>
+                        <p><a style="color: white;" href="">Contact Us</a></p>
+                    
+                </div>
+
+                <div class="col-md-3 mt-5" style="color: white;">
+                    <h1 style="color:#17a2b8;">Newsletter</h1>
+                    <div>
+                        <input type="text" placeholder="Your Name" style="background-color: white; margin: 10px;padding: 15px;border-radius: 5px;width: 100%;">
+                        <input type="text" placeholder="Your Email" style="background-color: white; margin: 10px;padding: 15px;border-radius: 5px;width: 100%;">
+                        <button style="color: white;border-radius: 30px;border: none; width: 100%;background-color: #17a2b8;margin: 10px;padding: 15px;">Submit Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer end -->
+    
+    
+    
+    
+    
 
 
 
