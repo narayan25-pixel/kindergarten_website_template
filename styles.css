@@ -1,0 +1,18 @@
+.navbar-brand{
+    font-style: initial;
+    color: #17a2b8;   
+    /* #00394f */
+}
+.navbutton{
+   position:absolute;
+   left: 70px;
+   text-align: center;
+   top: 20px;
+   
+}
+.Kindergartenbutton{
+    left: 70px;
+}
+a:link{
+    color: white;
+}
