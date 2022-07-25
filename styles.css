@@ -1,18 +1,24 @@
-.navbar-brand{
-    font-style: initial;
-    color: #17a2b8;   
-    /* #00394f */
+body {
+  font-family: "Roboto", sans-serif;
 }
-.navbutton{
-   position:absolute;
-   left: 70px;
-   text-align: center;
-   top: 20px;
-   
+
+.navbar-brand {
+  font-style: initial;
+  color: #17a2b8;
+  /* #00394f */
 }
-.Kindergartenbutton{
-    left: 70px;
+.navbutton {
+  position: absolute;
+  left: 70px;
+  text-align: center;
+  top: 20px;
 }
-a:link{
-    color: white;
+.Kindergartenbutton {
+  left: 70px;
+}
+a:link {
+  color: white;
+}
+.introsection {
+  background-color: rgba(128, 128, 128, 0);
 }
